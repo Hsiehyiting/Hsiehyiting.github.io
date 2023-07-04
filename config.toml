@@ -1,0 +1,85 @@
+ 
+
+theme = "PaperMod"
+	
+baseurl = "https://iting.github.io" 
+
+languageCode = "zh-tw" 
+
+title = "Iting Blog" 
+
+
+buildDrafts = false 
+
+[[menu.main]]
+
+identifier = "tags"
+
+name = "tags"
+
+url = "/tags/"
+
+weight = 10
+
+
+[[menu.main]]
+
+identifier = "categories"
+
+name = "categories"
+
+url = "/categories/"
+
+weight = 20
+
+
+[[menu.main]]
+
+identifier = "archives"
+
+name = "Archives"
+
+url = "/archives/"
+
+weight = 30
+
+[params.profileMode]
+enabled = true
+title = "Enter my blog "
+subtitle = "Enter my blog "
+imageUrl = "img/name.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Enter the content"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcons]]
+name = "github"
+url = "your github profile url"
+
+[[params.socialIcons]]
+name = "Instagram"
+url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+name = "facebook"
+url = "https://zh-tw.facebook.com/"
+
+[params] 
+ShowBreadCrumbs = true    
+
+ShowReadingTime = true    
+
+ShowShareButtons = true    
+
+ShowPostNavLinks = true    
+
+[params.cover]
+linkFullImages = true    
